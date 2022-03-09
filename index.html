@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <main id="main-body">
+      <header id="header-header">TIP CALCULATOR</header>
+      <div id="divider"></div>
+      <form>
+        <div class="hinttext textbox">How much was your bill?</div>
+        <input class="input-box input-text" id="bill" type="text" />
+        <div class="hinttext textbox">How much was your bill?</div>
+        <select id="option" class="input-box">
+          <option class="tippercentage" value="0.4">40%</option>
+          <option class="tippercentage" value="0.3">30%</option>
+          <option class="tippercentage" value="0.2">20%</option>
+          <option class="tippercentage" value="0.1">10%</option>
+        </select>
+        <div class="hinttext textbox">How much was your bill?</div>
+        <input class="input-box input-text" id="tipwaiter" type="text" />
+        <button id="btn" type="submit">Calculate</button>
+        <output id="result-out" type="result">
+          Tip Amount <span id="answer"></span>
+        </output>
+        <h2>each</h2>
+      </form>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

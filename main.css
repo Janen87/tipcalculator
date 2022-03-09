@@ -1,0 +1,69 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#main-body {
+  background: rgb(0, 0, 0);
+  padding: 1rem auto 1rem;
+  margin: auto 20rem auto 23rem;
+  border-radius: 40px;
+}
+#header-header {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(4, 247, 77);
+}
+#divider {
+  border: 1px solid white;
+}
+.hinttext {
+  font-size: 20px;
+  color: rgb(4, 247, 77);
+}
+.textbox {
+  margin: 1rem 1rem;
+}
+#option {
+  padding: 12px 72px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(21, 110, 21);
+}
+.input-box {
+  margin: 1rem 0.5rem;
+  padding: 1.5rem 0;
+  border: none;
+  outline: none;
+}
+.input-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(21, 110, 21);
+}
+#btn {
+  display: block;
+  padding: 1rem;
+  margin: 1rem auto;
+  font-size: 40px;
+  color: white;
+  background: rgb(4, 247, 77);
+}
+#result-out {
+  padding: 1rem 3rem 3rem 0;
+  margin: 2rem 2rem;
+  font-size: 20px;
+  color: rgb(4, 247, 77);
+}
+h2 {
+  padding: 1rem 0 3rem 0;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(4, 247, 77);
+}
+span {
+  font-weight: bold;
+  font-size: 20px;
+  color: green;
+}
